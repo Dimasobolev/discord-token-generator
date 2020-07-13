@@ -9,8 +9,8 @@ const { catchAsync } = require('../utils');
 
 const router = express.Router();
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID = process.env.718140814324269128;
+const CLIENT_SECRET = process.env.AGhLMWcwUOlwRMSVK_Ov60Qi0-CCJwr8;
 const redirect = encodeURIComponent('http://localhost:50451/api/discord/callback');
 
 router.get('/login', (req, res) => {
